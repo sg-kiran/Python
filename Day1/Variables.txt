@@ -1,0 +1,9 @@
+Keywords ==> These are the predefined/reserved words by the language for representing specific functionalities
+
+Data types ==>Data types are also keywords, but these words will be used for defining  the data type of a value that you are going to use
+example : int, float, bool, string, set, dict, etc
+
+Variable  ==> it holds some value
+
+Syntax:
+Variable_name:data_type = value
