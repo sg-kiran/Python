@@ -1,0 +1,38 @@
+Functions: This is a block of code where you want to execute many times
+advantages: Reusability
+			Maintainbility
+			Easy to test the code
+			modularity(simple to understand the code)
+
+Syntax:
+
+def {Name of function}():
+	----------------
+	----------------
+	
+
+def {Name of function}({name_var}:{type},{name_var_1}:{type})
+	-----------------
+	-----------------
+
+
+week_day=1
+def week_name_with_day_num(week_day:int):
+    if(week_day == 1):
+        print("Sunday")
+    elif(week_day ==2):
+        print("Monday")
+    elif(week_day ==3):
+        print("Tuesday")
+    elif(week_day ==4):
+        print("wednesday")
+    elif week_day ==5:
+        print("Thursday")
+    elif(week_day==6):
+        print("Friday")
+    elif(week_day==7):
+        print("Saturday")
+    else:
+        print("Not a valid day")
+
+print(week_name_with_day_num(3))
