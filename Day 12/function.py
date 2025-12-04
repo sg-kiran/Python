@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 week_day=1
 def week_name_with_day_num(week_day:int):
     if(week_day == 1):
@@ -19,3 +20,25 @@ def week_name_with_day_num(week_day:int):
 
 week_name_with_day_num(3)
 
+=======
+week_day=1
+def week_name_with_day_num(week_day:int):
+    if(week_day == 1):
+        print("Sunday")
+    elif(week_day ==2):
+        print("Monday")
+    elif(week_day ==3):
+        print("Tuesday")
+    elif(week_day ==4):
+        print("wednesday")
+    elif week_day ==5:
+        print("Thursday")
+    elif(week_day==6):
+        print("Friday")
+    elif(week_day==7):
+        print("Saturday")
+    else:
+        print("Not a valid day")
+
+print(week_name_with_day_num(3))
+>>>>>>> e0dce3a5f9668578c5af69c18e6368b7d1ece8cc
