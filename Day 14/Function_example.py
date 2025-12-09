@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 
 def evenorodd(num1:int):
     if num1%2 == 0:
@@ -40,4 +39,4 @@ else:
 
 
 
->>>>>>> e0dce3a5f9668578c5af69c18e6368b7d1ece8cc
+

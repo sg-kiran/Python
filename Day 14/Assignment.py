@@ -37,3 +37,5 @@ def area(L,W=None):
     else:
         print(L*W)
 area(2,3)
+
+

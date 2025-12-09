@@ -24,13 +24,32 @@ certain condition is met"""
 # 3. Print mathematical tables from 1 to 10.
 # 4. Print 1 to current year that are leap years.
 # 5. Sum of All Even Numbers from 1 to 100
-for table_num in range(11):
-    for table_num in range(11):
-        if (table_num == 0):
-            for i in range(10):
-                if (i == 0):
-                    print(table_num, "*", i, "=", (table_num * i))
-        print("=========")
+# for table_num in range(11):
+#     for table_num in range(11):
+#         if (table_num == 0):
+#             for i in range(10):
+#                 if (i == 0):
+#                     print(table_num, "*", i, "=", (table_num * i))
+#         print("=========")
+#
+#
+# # 6. Numbers from 1 to 100 That Are Both Divisible by 2 and 5
+
+"""Write a code to reverse a string"""
+
+# stat = []
+# def name(value):
+#     for i in value:
+#         stat.insert(0, i)
+#     print(stat)
+# a = str(input("enter the string"))
+# name(a)
 
 
-# 6. Numbers from 1 to 100 That Are Both Divisible by 2 and 5
+def name(value):
+    for i in value:
+        stat1 = stat1 + i
+    print(stat1)
+a = str(input("enter the string"))
+name(a)
+
