@@ -46,11 +46,12 @@ emp_id = [1, 2, 3, 4, 5]
 # print(emp_list.index(22))
 """3. Write down the program on finding count of occurances of the element in the list."""
 #
+# ind =0
+# occ =0
 # emp_list1=[22,33,44,55,66,77,33]
-# # element=88
 # def find(element):
-#     ind = 0
-#     occ = 0
+#     # ind = 0
+#     # occ = 0
 #     for i in emp_list1:
 #         if i != element:
 #             ind += 1
@@ -66,12 +67,19 @@ emp_id = [1, 2, 3, 4, 5]
 #     print("not found")
 #
 # print("num of occurrences ", a[1])
-#
+
 # print(emp_list1.count(28))  #simple way to do it
 
-"""4. Write down the program to add one list to other list."""
+# """4. Write down the program to add one list to other list."""
 emp_list2 = [22,33,44,55]
 emp_list3 = [66,77,88,99]
-for i in emp_list3:
-    emp_list2.append(i)
-print(emp_list2)
+# for i in emp_list3:
+#     emp_list2.append(i)
+# print(emp_list2)
+# print(emp_list2[-4::-2])
+# print(emp_list2[-4::2])
+# print(emp_list2[::2])
+
+print(emp_list2+emp_list3)
+print(emp_list2.count(22))
+
