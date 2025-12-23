@@ -53,3 +53,14 @@ print("all the values present in the list are true:", res)
 l3 = [True, 1, False]
 res1 = any(l3)
 print("one of the values present in the list are true:", res1)
+
+# How can I create a function which accepts dynamic number of integers and print them.
+
+# def dynamic_int(*arguments):
+#     print("the numbers entered \n",arguments)
+# dynamic_int(1,2,3,4,5)
+
+def n_num_values_without_collection(*argments):
+    print("The Values are ==>", argments)
+    print(type(argments))
+n_num_values_without_collection("1", "2", 3, 4, 5)
