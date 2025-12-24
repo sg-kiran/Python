@@ -10,6 +10,8 @@ t.sort(key=lambda item:item[1], reverse=True)
 print(t)
 
 #write the program without using lambda or sort function
+
+# t= [("a",3),("c",2),("b",4),("e",1)]
 big=0
 index = 0
 new_t=[]
