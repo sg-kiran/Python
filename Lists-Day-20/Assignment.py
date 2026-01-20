@@ -1,29 +1,29 @@
 emp_id = [1, 2, 3, 4, 5]
-# employee_ids_names = [1,2, 'A', "X", False, 23.67, 67]
+employee_ids_names = [1,2, 'A', "X", False, 23.67, 67]
 # new_emp_id=employee_ids_names[0:5:2]
 # print(new_emp_id)
 # print(employee_ids_names[::2])
 # print(employee_ids_names[3::])
-# emp_id.append(5)
+emp_id.append(5)
 # print(emp_id)
 # emp_id.insert(2,99)
 # print(emp_id)
-# emp_id.extend([6,7])
+emp_id.extend([6,7])
 # print(emp_id)
 # emp_id.remove(99)
 # print(emp_id)
-# # emp_id.pop()
-# # print(emp_id)
+# emp_id.pop()
+# print(emp_id)
 # # emp_id.clear()
 # # print(emp_id)
 # emp_id.reverse()
 # print(emp_id)
 # emp_id.sort()
-# print(emp_id)
+print(emp_id)
 # print(emp_id.index(3))
 
-# print(emp_id[1])
-# print(emp_id.index(5))
+print(emp_id[1])
+print(emp_id.index(5))
 
 """2. Write down the program on finding the index of some element in the list."""
 # emp_list=[22,33,44,55,66,77]
@@ -71,8 +71,8 @@ emp_id = [1, 2, 3, 4, 5]
 # print(emp_list1.count(28))  #simple way to do it
 
 # """4. Write down the program to add one list to other list."""
-emp_list2 = [22,33,44,55]
-emp_list3 = [66,77,88,99]
+# emp_list2 = [22,33,44,55]
+# emp_list3 = [66,77,88,99]
 # for i in emp_list3:
 #     emp_list2.append(i)
 # print(emp_list2)
@@ -80,6 +80,6 @@ emp_list3 = [66,77,88,99]
 # print(emp_list2[-4::2])
 # print(emp_list2[::2])
 
-print(emp_list2+emp_list3)
-print(emp_list2.count(22))
+# print(emp_list2+emp_list3)
+# print(emp_list2.count(22))
 
