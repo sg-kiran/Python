@@ -139,7 +139,18 @@ Output:
 # def stri_true(word2:str):
 #     return { ch: True for ch in word2}
 # print(stri_true('python'))
+#
+# def list_squ(l:list):
+#     d2={}
+#     for i,j in enumerate(l):
+#         d2.update({l[i]:pow(j,2)})
+#
+#     return d2
+# print(list_squ([1,2]))
+#
+#
+def list_cube(l:list):
+    t=()
+    return t(x for x in l)
 
-def list_squ(l:list):
-    return { (lambda a: a*a) (i)for i in l}
-print(list_squ([1,2,3]))
+print(type(list_cube([1,2,3,4])))
