@@ -18,3 +18,6 @@ class Student:
 
 S1 = Student("Kiran",22, "234")
 print(S1.marks)
+
+"""staticmethod does not depend on any object or class and can act on its own and returns the values
+is not necessarily required, but it improves readability"""
